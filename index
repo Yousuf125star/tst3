@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YTS REEL CRAFTERS | Expert Reel Creation for Astrology Influencers</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/all.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .brand-bg {
+            background-color: #0e3b49;
+        }
+        .brand-text {
+            color: #e9c46a;
+        }
+        .brand-border {
+            border-color: #e9c46a;
+        }
+        .testimonial-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .package-card {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+        }
+        .package-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+        }
+        .feature-item {
+            margin-bottom: 12px;
+            display: flex;
+            align-items: flex-start;
+        }
+        .icon-check {
+            color: #4CAF50;
+            margin-right: 10px;
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="brand-bg py-6">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="https://page.genspark.site/v1/base64_upload/ff1a369a0b777c47bcc5f695373a5e21" alt="YTS REEL CRAFTERS Logo" class="h-20">
+            </div>
+            <div>
+                <a href="#contact" class="bg-white text-gray-800 hover:bg-gray-100 font-bold py-2 px-6 rounded-full shadow-md transition duration-300">Contact Us</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-16 brand-bg text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6"><span class="brand-text">2X Your Views & Sales</span> in Just 8 Weeks</h1>
+            <p class="text-xl md:text-2xl mb-12 max-w-3xl mx-auto">Premium content creation services for astrology influencers with 100K-300K followers ready to scale their impact</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#premium" class="brand-text bg-white hover:bg-gray-100 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 text-lg">Explore Premium Package</a>
+                <a href="#basic" class="text-white border-2 border-white hover:bg-white hover:text-gray-800 font-bold py-3 px-8 rounded-full transition duration-300 text-lg">View Basic Package</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Promise -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Our Promise To You</h2>
+                <div class="w-20 h-1 brand-bg mx-auto mb-6"></div>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    We become your Growth Partner to help you 2X your views and sales in 8 weeks — or we work an extra week for free.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 brand-bg rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-chart-line text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">1M+ Total Views</h3>
+                    <p class="text-gray-600">Across all your Reels in just 8 weeks</p>
+                </div>
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 brand-bg rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-comments text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">2X Increase</h3>
+                    <p class="text-gray-600">In DM inquiries from potential clients</p>
+                </div>
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 brand-bg rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-wallet text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">20-40% More</h3>
+                    <p class="text-gray-600">Paid bookings for your astrology services</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What We Do -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">What We Do For You</h2>
+                <div class="w-20 h-1 brand-bg mx-auto mb-6"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 brand-bg rounded-full flex items-center justify-center mr-4">
+                            <span class="text-white font-bold">1</span>
+                        </div>
+                        <h3 class="text-xl font-bold">Viral Trend Research</h3>
+                    </div>
+                    <p class="text-gray-600 ml-14">We analyze competitors and identify video formats that consistently perform well in the astrology niche.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 brand-bg rounded-full flex items-center justify-center mr-4">
+                            <span class="text-white font-bold">2</span>
+                        </div>
+                        <h3 class="text-xl font-bold">High-Converting Scripts</h3>
+                    </div>
+                    <p class="text-gray-600 ml-14">Custom-written content designed for maximum reach, engagement, and conversion.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 brand-bg rounded-full flex items-center justify-center mr-4">
+                            <span class="text-white font-bold">3</span>
+                        </div>
+                        <h3 class="text-xl font-bold">Pro-Quality Video Editing</h3>
+                    </div>
+                    <p class="text-gray-600 ml-14">Stunning visuals that stand out in the feed and keep viewers watching until the end.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 brand-bg rounded-full flex items-center justify-center mr-4">
+                            <span class="text-white font-bold">4</span>
+                        </div>
+                        <h3 class="text-xl font-bold">Client-Focused Content</h3>
+                    </div>
+                    <p class="text-gray-600 ml-14">Strategic call-to-action placement that drives more DMs and sales for your services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages -->
+    <section id="premium" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Our Packages</h2>
+                <div class="w-20 h-1 brand-bg mx-auto mb-6"></div>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Choose the perfect solution to grow your astrology business
+                </p>
+            </div>
+
+            <div class="flex flex-col lg:flex-row gap-8 mt-8">
+                <!-- Premium Package -->
+                <div class="package-card flex-1 p-8 border-t-8 brand-border">
+                    <h3 class="text-2xl font-bold mb-2">The AstroInfluence Accelerator™</h3>
+                    <p class="text-gray-500 mb-6">Premium Growth Package for Astrology Creators</p>
+                    
+                    <div class="flex items-end mb-6">
+                        <span class="text-4xl font-bold">₹35,000</span>
+                        <span class="text-gray-500 ml-1">/month</span>
+                    </div>
+                    <p class="text-gray-600 mb-8">₹70,000 for 8 weeks</p>
+
+                    <p class="mb-6 font-medium">Ideal for: Astrology creators with 100K–300K followers ready to explode their audience and client base — without burning out.</p>
+
+                    <div class="mb-8">
+                        <h4 class="font-bold text-lg mb-4">What's Included:</h4>
+                        
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle icon-check text-lg"></i>
+                            <div>
+                                <p class="font-bold">Done-For-You Viral Content Creation</p>
+                                <p class="text-gray-600">18-20 ready-to-upload Reels crafted each month</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle icon-check text-lg"></i>
+                            <div>
+                                <p class="font-bold">Full Account Growth Management</p>
+                                <p class="text-gray-600">Strategic posting and algorithm optimization</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle icon-check text-lg"></i>
+                            <div>
+                                <p class="font-bold">Community Engagement Boosting</p>
+                                <p class="text-gray-600">Strategic comment replies and story uploads</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle icon-check text-lg"></i>
+                            <div>
+                                <p class="font-bold">Profile Conversion Optimization</p>
+                                <p class="text-gray-600">Magnetic bio rewrite and highlights setup</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle icon-check text-lg"></i>
+                            <div>
+                                <p class="font-bold">VIP Shooting & Minor Problem Support</p>
+                                <p class="text-gray-600">Personal shooting guide and technical help</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-lg mb-8">
+                        <h4 class="font-bold text-lg mb-4">Exclusive Bonuses:</h4>
+                        <ul class="space-y-2">
+                            <li class="flex items-start">
+                                <i class="fas fa-gift text-yellow-500 mr-3 mt-1"></i>
+                                <span>Weekly 1-on-1 Private Strategy Calls</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-gift text-yellow-500 mr-3 mt-1"></i>
+                                <span>Daily Direct Access via WhatsApp Business</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-gift text-yellow-500 mr-3 mt-1"></i>
+                                <span>Weekly Trend & Opportunity Report</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-gift text-yellow-500 mr-3 mt-1"></i>
+                                <span>Step-by-Step Content System Guide</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-green-50 p-6 rounded-lg mb-8">
+                        <h4 class="font-bold text-lg mb-4 text-green-700">The AstroInfluence Double Guarantee™</h4>
+                        <div class="space-y-4">
+                            <div>
+                                <p class="font-bold">Performance Guarantee:</p>
+                                <p>We aim to 2x your views in 8 weeks or extend your campaign by 2 weeks for free.</p>
+                            </div>
+                            <div>
+                                <p class="font-bold">Satisfaction Guarantee:</p>
+                                <p>If after 10 weeks you're not happy, apply 50% of your payment toward any other service.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-yellow-50 p-4 rounded-lg text-center mb-8">
+                        <p class="font-bold text-yellow-800">Limited-Time Founders Launch Offer:</p>
+                        <p>Before 5 April 2025 get an exclusive ₹5,000 OFF your first month.</p>
+                    </div>
+
+                    <a href="#contact" class="block w-full py-3 brand-bg text-white text-center rounded-lg font-bold hover:bg-opacity-90 transition duration-300">Get Started Now</a>
+                </div>
+
+                <!-- Basic Package -->
+                <div id="basic" class="package-card flex-1 p-8 border-t-8 border-gray-400">
+                    <h3 class="text-2xl font-bold mb-2">Basic Package</h3>
+                    <p class="text-gray-500 mb-6">Essential Editing Service</p>
+                    
+                    <div class="flex items-end mb-6">
+                        <span class="text-4xl font-bold">₹10,000</span>
+                        <span class="text-gray-500 ml-1">/month</span>
+                    </div>
+
+                    <p class="mb-6 font-medium">Best for: Creators who already have a content plan and just need professional editing.</p>
+
+                    <div class="mb-8">
+                        <h4 class="font-bold text-lg mb-4">What's Included:</h4>
+                        
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle icon-check text-lg"></i>
+                            <div>
+                                <p class="font-bold">Video Editing (20 Reels/month)</p>
+                                <p class="text-gray-600">10 Facecam + 10 Faceless videos</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-8">
+                        <h4 class="font-bold text-lg mb-4">You Handle:</h4>
+                        <ul class="space-y-2">
+                            <li class="flex items-start">
+                                <i class="fas fa-arrow-right text-gray-400 mr-3 mt-1"></i>
+                                <span>Scripting</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-arrow-right text-gray-400 mr-3 mt-1"></i>
+                                <span>Filming</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-arrow-right text-gray-400 mr-3 mt-1"></i>
+                                <span>Ideation</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-8">
+                        <h4 class="font-bold text-lg mb-4">We Handle:</h4>
+                        <ul class="space-y-2">
+                            <li class="flex items-start">
+                                <i class="fas fa-arrow-right text-gray-400 mr-3 mt-1"></i>
+                                <span>Professional video editing</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-arrow-right text-gray-400 mr-3 mt-1"></i>
+                                <span>Visual effects and graphics</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-arrow-right text-gray-400 mr-3 mt-1"></i>
+                                <span>Music and sound design</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-8">
+                        <p class="font-medium">Note: No performance guarantee with this package</p>
+                    </div>
+
+                    <a href="#contact" class="block w-full py-3 bg-gray-800 text-white text-center rounded-lg font-bold hover:bg-opacity-90 transition duration-300">Get Basic Package</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Results -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Client Results & Testimonials</h2>
+                <div class="w-20 h-1 brand-bg mx-auto mb-6"></div>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    See how we've helped astrology creators grow their audience and business
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center mr-4">
+                                <span class="text-gray-500 font-bold">A</span>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Akash</h4>
+                                <p class="text-gray-500 text-sm">Astrology Content Creator</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-700 mb-4">"I'm so much Happy to see this. Specially Groww India promotional video. Nice edit!"</p>
+                    </div>
+                    <div class="px-6 pb-6">
+                        <img src="https://page.genspark.site/v1/base64_upload/0e903f868d9f22981780ca31ce2da324" alt="Client Testimonial" class="rounded-lg w-full">
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center mr-4">
+                                <span class="text-gray-500 font-bold">H</span>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Hemendra</h4>
+                                <p class="text-gray-500 text-sm">Astrologistar.com</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-700 mb-4">"Bohot mast hai! Jabrdast hai ye 👍"</p>
+                    </div>
+                    <div class="px-6 pb-6">
+                        <img src="https://page.genspark.site/v1/base64_upload/2a50bdfcbb6abbdbe6a22cfbc4fdf44c" alt="Client Testimonial" class="rounded-lg w-full">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Your New Reality -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Your New Reality</h2>
+                <div class="w-20 h-1 brand-bg mx-auto mb-6"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8">
+                <div class="flex">
+                    <div class="mr-4 flex-shrink-0">
+                        <div class="w-12 h-12 brand-bg rounded-full flex items-center justify-center">
+                            <i class="fas fa-eye text-white text-xl"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-2">10x Your Visibility</h3>
+                        <p class="text-gray-600">Dramatically increase your reach across Instagram with content that gets shared and saved.</p>
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <div class="mr-4 flex-shrink-0">
+                        <div class="w-12 h-12 brand-bg rounded-full flex items-center justify-center">
+                            <i class="fas fa-comment-dollar text-white text-xl"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-2">Double Client Inquiries</h3>
+                        <p class="text-gray-600">Watch your DMs fill with booking requests from engaged followers ready to pay for your services.</p>
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <div class="mr-4 flex-shrink-0">
+                        <div class="w-12 h-12 brand-bg rounded-full flex items-center justify-center">
+                            <i class="fas fa-users text-white text-xl"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-2">Build a Loyal Audience</h3>
+                        <p class="text-gray-600">Create a community of high-paying clients who trust your expertise and refer others.</p>
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <div class="mr-4 flex-shrink-0">
+                        <div class="w-12 h-12 brand-bg rounded-full flex items-center justify-center">
+                            <i class="fas fa-clock text-white text-xl"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-2">Free Up Your Time</h3>
+                        <p class="text-gray-600">Focus on your passion—helping people with your astrology skills—not managing content creation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-16 brand-bg text-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Ready to Become the Go-To Astrologer?</h2>
+                <p class="text-xl max-w-3xl mx-auto">
+                    Let's build your empire together. Contact us now to get started.
+                </p>
+            </div>
+
+            <div class="max-w-md mx-auto bg-white text-gray-800 rounded-lg p-8">
+                <h3 class="text-2xl font-bold mb-6 text-center">Get Started Today</h3>
+                
+                <form>
+                    <div class="mb-4">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+                            Your Name
+                        </label>
+                        <input class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Your Name">
+                    </div>
+                    
+                    <div class="mb-4">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="instagram">
+                            Instagram Handle
+                        </label>
+                        <input class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="instagram" type="text" placeholder="@yourusername">
+                    </div>
+                    
+                    <div class="mb-4">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="phone">
+                            WhatsApp Number
+                        </label>
+                        <input class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="phone" type="text" placeholder="Your WhatsApp Number">
+                    </div>
+                    
+                    <div class="mb-4">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="followers">
+                            Current Follower Count
+                        </label>
+                        <select class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="followers">
+                            <option>Select your follower range</option>
+                            <option>Less than 100K</option>
+                            <option>100K - 300K</option>
+                            <option>More than 300K</option>
+                        </select>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="message">
+                            Message (Optional)
+                        </label>
+                        <textarea class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" rows="4" placeholder="Tell us about your content goals..."></textarea>
+                    </div>
+                    
+                    <div class="flex items-center justify-center">
+                        <button class="brand-bg hover:bg-opacity-90 text-white font-bold py-3 px-8 rounded-lg focus:outline-none focus:shadow-outline transition duration-300 w-full" type="button">
+                            Send Message
+                        </button>
+                    </div>
+                </form>
+                
+                <div class="text-center mt-8">
+                    <p class="text-sm text-gray-600">Or contact us directly via WhatsApp</p>
+                    <a href="#" class="inline-flex items-center justify-center mt-2 px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition duration-300">
+                        <i class="fab fa-whatsapp mr-2 text-xl"></i>
+                        Message "GROWTH" to Get Started
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 bg-gray-900 text-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <img src="https://page.genspark.site/v1/base64_upload/ff1a369a0b777c47bcc5f695373a5e21" alt="YTS REEL CRAFTERS Logo" class="h-16">
+                </div>
+                
+                <div class="text-center md:text-right">
+                    <p class="mb-2">&copy; 2024 YTS REEL CRAFTERS. All rights reserved.</p>
+                    <p class="text-gray-400 text-sm">Specialized in Astrology Content Creation</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
